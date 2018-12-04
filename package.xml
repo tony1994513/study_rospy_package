@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>study_rospy_package</name>
+  <version>0.0.0</version>
+  <description>The study_rospy_package package</description>
+
+  <maintainer email="470963660@qq.com">shuangda</maintainer>
+  <license>GNU General Public License V3.0</license>
+  <author>tony</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_runtime</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>actionlib_msgs</exec_depend>
+  
+
+  <export>
+
+  </export>
+</package>
